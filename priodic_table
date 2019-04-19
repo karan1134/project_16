@@ -1,1 +1,86 @@
-
+#include <iostream.h>0.
+#include <conio.h>
+#include <rw/random.h>
+#include <string.h>
+#include <armory.h>
+//---------------------------------------------------------------------------
+void Table(string Name, double Number, int Group, int Period, string Formula, string Charge, double Mass, int Neutrons, string Special)
+{
+Neutrons = (Mass - Number);
+clrscr();
+gotoxy(1,2);
+cout<< "Element Name:  " << Name << "\n\n";
+cout<< "Formula:       " << Formula << "\n";
+cout<< "Atomic Number: " << Number << "\n";
+cout<< "Atomic Mass:   " << Mass << "\n";
+cout<< "Group:         " << Group << "\n";
+cout<< "Period:        " << Period << "\n";
+cout<< "Charge:        " << Charge << "\n";
+cout<< "Neutrons:      " << Neutrons << "\n";
+if (Special != "None")
+{
+cout<< "Note:          " << Special << "\n";
+}
+Pause();
+clrscr();
+gotoxy(1,2);
+}
+//---------------------------------------------------------------------------
+void Help()
+{
+clrscr();
+gotoxy(1,2);
+cout<< "HELP\n\n";
+cout<< "Help            - Opens this window.\n";
+cout<< "Clear           - Clears current screen.\n";
+cout<< "Prefix          - Lists prefix terms.\n";
+cout<< "Element Formula - Displays information of element (eg: Sn).\n";
+cout<< "Atomic Number   - Displays information of element (eg: 50).\n";
+cout<< "Element Name    - Displays information of element (eg: tin).\n";
+cout<< "Credits         - Information on the programmer.\n";
+cout<< "Quit            - Quits the program.\n";
+Pause();
+clrscr();
+gotoxy(1,2);
+}
+//---------------------------------------------------------------------------
+void Credits()
+{
+char CreditsKey;
+clrscr();
+gotoxy(1,2);
+cout<< "CREDITS\n\n";
+cout<< "I made the PERIODIC TABLE program near the end of 2018. I\n";
+cout<< "had just discovered the world of C++ program, and was eager\n";
+cout<< "to test it out. This is the result.\n";
+cout<< "I have always enjoyed chemistry, and so it was no surprise to\n";
+cout<< "me when a periodic table program was the first idea that\n";
+cout<< "popped into my head.\n";
+cout<< "I hope you have all enjoyed the program as an educational tool.\n";
+cout<< "Enjoy the program, use it often, and my vision will be fufilled.\n\n";
+cout<< "\tProgrammed by Carlo (completed 2001)\n";
+Pause();
+clrscr();
+gotoxy(1,2);
+}
+//---------------------------------------------------------------------------
+void Prefix()
+{
+clrscr();
+gotoxy(1,2);
+cout<< "PREFIX\n\n";
+cout<< "mono          - One (1)\n";
+cout<< "di            - Two (2)\n";
+cout<< "tri           - Three (3)\n";
+cout<< "tetra         - Four (4)\n";
+cout<< "penta         - Five (5)\n";
+cout<< "hexa          - Six (6)\n";
+cout<< "hepta         - Seven (7)\n";
+cout<< "octa          - Eight (8)\n";
+cout<< "nona or ennea - Nine (9)\n";
+cout<< "deca          - Ten (10)\n";
+Pause();
+clrscr();
+gotoxy(1,2);
+}
+//---------------------------------------------------------------------------
