@@ -135,3 +135,97 @@ textbackground(BLUE);
 clrscr();
 gotoxy(1,2);
 //---------------------------------------------------------------------------
+// VARIABLES
+string Formula,
+       Name,
+       Command,
+       Charge,
+       Special = "None";
+int    Group,
+       Period;
+double Mass,
+       Neutrons,
+       Number;
+//---------------------------------------------------------------------------
+do{
+cout<< "COMMAND: ";
+cin>> Command;
+if ((Command == "Help") || (Command == "HELP") || (Command == "help"))
+{
+Help();
+}
+else if ((Command == "Credits") || (Command == "CREDITS") || (Command == "credits"))
+{
+Credits();
+}
+else if ((Command == "Clear") || (Command == "CLEAR") || (Command == "clear"))
+{
+clrscr();
+gotoxy(1,2);
+}
+else if ((Command == "Prefix") || (Command == "PREFIX") || (Command == "prefix"))
+{
+Prefix();
+}
+//---------------------------------------------------------------------------
+else if ((Command == "1") || (Command == "hydrogen") || (Command == "H"))
+{
+Name = "hydrogen";
+Number = 1;
+Group = 1;
+Period = 1;
+Formula = "H";
+Charge = "1+";
+Mass = 1.01;
+Special = "Diatomic";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "2") || (Command == "helium") || (Command == "He"))
+{
+Name = "helium";
+Number = 2;
+Group = 18;
+Period = 1;
+Formula = "He";
+Charge = "0";
+Mass = 4.00;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "3") || (Command == "lithium") || (Command == "Li"))
+{
+Name = "lithium";
+Number = 3;
+Group = 1;
+Period = 2;
+Formula = "Li";
+Charge = "1+";
+Mass = 6.94;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "4") || (Command == "beryllium") || (Command == "Be"))
+{
+Name = "beryllium";
+Number = 4;
+Group = 2;
+Period = 2;
+Formula = "Be";
+Charge = "2+";
+Mass = 9.01;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "5") || (Command == "boron") || (Command == "B"))
+{
+Name = "boron";
+Number = 5;
+Group = 13;
+Period = 2;
+Formula = "B";
+Charge = "3+";
+Mass = 10.81;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+
