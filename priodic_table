@@ -229,3 +229,64 @@ Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
 
+else if ((Command == "6") || (Command == "carbon") || (Command == "C"))
+{
+Name = "carbon";
+Number = 6;
+Group = 14;
+Period = 2;
+Formula = "C";
+Charge = "4+";
+Mass = 12.01;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "7") || (Command == "nitrogen") || (Command == "N"))
+{
+Name = "nitrogen";
+Number = 7;
+Group = 15;
+Period = 2;
+Formula = "N";
+Charge = "3-";
+Mass = 14.01;
+Special = "Diatomic";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "8") || (Command == "oxygen") || (Command == "O"))
+{
+Name = "oxygen";
+Number = 8;
+Group = 16;
+Period = 2;
+Formula = "O";
+Charge = "2-";
+Mass = 16.00;
+Special = "Diatomic";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "9") || (Command == "flourine") || (Command == "F"))
+{
+Name = "fluorine";
+Number = 9;
+Group = 17;
+Period = 2;
+Formula = "F";
+Charge = "1-";
+Mass = 19.00;
+Special = "Diatomic";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "10") || (Command == "neon") || (Command == "Ne"))
+{
+Name = "neon";
+Number = 10;
+Group = 18;
+Period = 2;
+Formula = "Ne";
+Charge = "0";
+Mass = 20.18;
+Special = "Noble Gas";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+
