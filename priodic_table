@@ -553,3 +553,51 @@ Mass = 72.61;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "33") || (Command == "arsonic") || (Command == "As"))
+{
+Name = "arsonic";
+Number = 33;
+Group = 15;
+Period = 4;
+Formula = "As";
+Charge = "3-";
+Mass = 74.92;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "34") || (Command == "selenium") || (Command == "Se"))
+{
+Name = "selenium";
+Number = 34;
+Group = 16;
+Period = 4;
+Formula = "Se";
+Charge = "2-";
+Mass = 78.96;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "35") || (Command == "bromine") || (Command == "Br"))
+{
+Name = "bromine";
+Number = 35;
+Group = 17;
+Period = 4;
+Formula = "Br";
+Charge = "1-";
+Mass = 79.90;
+Special = "Diatomic";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "36") || (Command == "krypton") || (Command == "Kr"))
+{
+Name = "krypton";
+Number = 36;
+Group = 18;
+Period = 4;
+Formula = "Kr";
+Charge = "0";
+Mass = 83.80;
+Special = "Noble Gas";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
