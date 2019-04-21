@@ -493,3 +493,63 @@ Mass = 58.93;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "28") || (Command == "nickel") || (Command == "Ni"))
+{
+Name = "nickel";
+Number = 28;
+Group = 10;
+Period = 4;
+Formula = "Ni";
+Charge = "2+ \\ 3+";
+Mass = 58.69;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "29") || (Command == "copper") || (Command == "Cu"))
+{
+Name = "copper";
+Number = 29;
+Group = 11;
+Period = 4;
+Formula = "Cu";
+Charge = "2+ \\ 1+";
+Mass = 63.55;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "30") || (Command == "zinc") || (Command == "Zn"))
+{
+Name = "zinc";
+Number = 30;
+Group = 12;
+Period = 4;
+Formula = "Zn";
+Charge = "2+";
+Mass = 65.38;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "31") || (Command == "gallium") || (Command == "Ga"))
+{
+Name = "gallium";
+Number = 31;
+Group = 13;
+Period = 4;
+Formula = "Ga";
+Charge = "3+";
+Mass = 69.72;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "32") || (Command == "germanium") || (Command == "Ge"))
+{
+Name = "germanium";
+Number = 32;
+Group = 14;
+Period = 4;
+Formula = "Ge";
+Charge = "4+";
+Mass = 72.61;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
