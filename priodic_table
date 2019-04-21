@@ -289,4 +289,207 @@ Mass = 20.18;
 Special = "Noble Gas";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
-
+else if ((Command == "11") || (Command == "sodium") || (Command == "Na"))
+{
+Name = "sodium";
+Number = 11;
+Group = 1;
+Period = 3;
+Formula = "Na";
+Charge = "1+";
+Mass = 22.99;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "12") || (Command == "magnesium") || (Command == "Mg"))
+{
+Name = "magnesium";
+Number = 12;
+Group = 2;
+Period = 3;
+Formula = "Mg";
+Charge = "2+";
+Mass = 24.31;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "13") || (Command == "aluminum") || (Command == "Al"))
+{
+Name = "aluminum";
+Number = 13;
+Group = 13;
+Period = 3;
+Formula = "Al";
+Charge = "3+";
+Mass = 26.98;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "14") || (Command == "silicon") || (Command == "Si"))
+{
+Name = "silicon";
+Number = 14;
+Group = 14;
+Period = 3;
+Formula = "Si";
+Charge = "4+";
+Mass = 28.09;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "15") || (Command == "phosphorous") || (Command == "P"))
+{
+Name = "phosphorus";
+Number = 15;
+Group = 15;
+Period = 3;
+Formula = "P";
+Charge = "3-";
+Mass = 30.97;
+Special = "Diatomic";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "16") || (Command == "sulfur") || (Command == "S"))
+{
+Name = "sulfur";
+Number = 16;
+Group = 16;
+Period = 3;
+Formula = "S";
+Charge = "2-";
+Mass = 32.06;
+Special = "Diatomic";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "17") || (Command == "chlorine") || (Command == "Cl"))
+{
+Name = "chlorine";
+Number = 17;
+Group = 17;
+Period = 3;
+Formula = "Cl";
+Charge = "1-";
+Mass = 35.45;
+Special = "Diatomic";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "18") || (Command == "argon") || (Command == "Ar"))
+{
+Name = "argon";
+Number = 18;
+Group = 18;
+Period = 3;
+Formula = "Ar";
+Charge = "0";
+Mass = 39.95;
+Special = "Noble Gas";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "19") || (Command == "potassium") || (Command == "K"))
+{
+Name = "potassium";
+Number = 19;
+Group = 1;
+Period = 4;
+Formula = "K";
+Charge = "1+";
+Mass = 39.10;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "20") || (Command == "calcium") || (Command == "Ca"))
+{
+Name = "calcium";
+Number = 20;
+Group = 2;
+Period = 4;
+Formula = "Ca";
+Charge = "2+";
+Mass = 40.08;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "21") || (Command == "scandium") || (Command == "Sc"))
+{
+Name = "scandium";
+Number = 21;
+Group = 3;
+Period = 4;
+Formula = "Sc";
+Charge = "3+";
+Mass = 44.96;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "22") || (Command == "titanium") || (Command == "Ti"))
+{
+Name = "titanium";
+Number = 22;
+Group = 4;
+Period = 4;
+Formula = "Ti";
+Charge = "4+ \\ 3+";
+Mass = 47.88;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "23") || (Command == "vanadium") || (Command == "V"))
+{
+Name = "vanadium";
+Number = 23;
+Group = 5;
+Period = 4;
+Formula = "V";
+Charge = "5+ \\ 4+";
+Mass = 50.94;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "24") || (Command == "chromium") || (Command == "Cr"))
+{
+Name = "chromium";
+Number = 24;
+Group = 6;
+Period = 4;
+Formula = "Cr";
+Charge = "3+ \\ 2+";
+Mass = 52.00;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "25") || (Command == "manganese") || (Command == "Mn"))
+{
+Name = "manganese";
+Number = 25;
+Group = 7;
+Period = 4;
+Formula = "Mn";
+Charge = "2+ \\ 4+";
+Mass = 54.94;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "26") || (Command == "iron") || (Command == "Fe"))
+{
+Name = "iron";
+Number = 26;
+Group = 8;
+Period = 4;
+Formula = "Fe";
+Charge = "3+ \\ 2+";
+Mass = 55.85;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "27") || (Command == "cobalt") || (Command == "Co"))
+{
+Name = "cobalt";
+Number = 27;
+Group = 9;
+Period = 4;
+Formula = "Co";
+Charge = "2+ \\ 3+";
+Mass = 58.93;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
