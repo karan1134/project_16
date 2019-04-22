@@ -770,3 +770,15 @@ Mass = 118.69;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "51") || (Command == "antimony") || (Command == "Sb"))
+{
+Name = "antimony";
+Number = 51;
+Group = 15;
+Period = 5;
+Formula = "Sb";
+Charge = "3+ \\ 5+";
+Mass = 121.75;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
