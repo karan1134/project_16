@@ -734,3 +734,15 @@ Mass = 107.87;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "48") || (Command == "cadmium") || (Command == "Cd"))
+{
+Name = "cadmium";
+Number = 48;
+Group = 12;
+Period = 5;
+Formula = "Cd";
+Charge = "2+";
+Mass = 112.41;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
