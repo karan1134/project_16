@@ -782,3 +782,15 @@ Mass = 121.75;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "52") || (Command == "tellurium") || (Command == "Te"))
+{
+Name = "tellurium";
+Number = 52;
+Group = 16;
+Period = 5;
+Formula = "Te";
+Charge = "2-";
+Mass = 127.60;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
