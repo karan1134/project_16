@@ -638,3 +638,15 @@ Mass = 88.91;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "40") || (Command == "zirconium") || (Command == "Zr"))
+{
+Name = "zirconium";
+Number = 40;
+Group = 4;
+Period = 5;
+Formula = "Zr";
+Charge = "4+";
+Mass = 91.22;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
