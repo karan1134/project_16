@@ -601,3 +601,18 @@ Mass = 83.80;
 Special = "Noble Gas";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+
+else if ((Command == "37") || (Command == "rubidium") || (Command == "Rb"))
+{
+Name = "rubidium";
+Number = 37;
+Group = 1;
+Period = 5;
+Formula = "Rb";
+Charge = "1+";
+Mass = 85.47;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "38") || (Command == "stronthum") || (Command == "Sr"))
+{
