@@ -818,3 +818,15 @@ Mass = 131.29;
 Special = "Noble Gas";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "55") || (Command == "cosium") || (Command == "Cs"))
+{
+Name = "cosiumn";
+Number = 55;
+Group = 1;
+Period = 6;
+Formula = "Cs";
+Charge = "1+";
+Mass = 132.91;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
