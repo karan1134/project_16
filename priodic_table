@@ -686,3 +686,15 @@ Mass = 98.91;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "44") || (Command == "ruthenium") || (Command == "Ru"))
+{
+Name = "ruthenium";
+Number = 44;
+Group = 8;
+Period = 5;
+Formula = "Ru";
+Charge = "3+ \\ 4+";
+Mass = 101.07;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
