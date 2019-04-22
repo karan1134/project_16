@@ -601,3 +601,112 @@ Mass = 83.80;
 Special = "Noble Gas";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+
+else if ((Command == "37") || (Command == "rubidium") || (Command == "Rb"))
+{
+Name = "rubidium";
+Number = 37;
+Group = 1;
+Period = 5;
+Formula = "Rb";
+Charge = "1+";
+Mass = 85.47;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "38") || (Command == "stronthum") || (Command == "Sr"))
+{
+Name = "stronthum";
+Number = 38;
+Group = 2;
+Period = 5;
+Formula = "Sr";
+Charge = "2+";
+Mass = 87.62;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "39") || (Command == "ythrium") || (Command == "Y"))
+{
+Name = "ythrium";
+Number = 39;
+Group = 3;
+Period = 5;
+Formula = "Y";
+Charge = "3+";
+Mass = 88.91;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "40") || (Command == "zirconium") || (Command == "Zr"))
+{
+Name = "zirconium";
+Number = 40;
+Group = 4;
+Period = 5;
+Formula = "Zr";
+Charge = "4+";
+Mass = 91.22;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "41") || (Command == "niobium") || (Command == "Nb"))
+{
+Name = "niobium";
+Number = 41;
+Group = 5;
+Period = 5;
+Formula = "Nb";
+Charge = "5+ \\ 3+";
+Mass = 92.91;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "42") || (Command == "molybdenum") || (Command == "Mo"))
+{
+Name = "molybdenum";
+Number = 42;
+Group = 6;
+Period = 5;
+Formula = "Mo";
+Charge = "6+";
+Mass = 95.94;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "43") || (Command == "techenium") || (Command == "Tc"))
+{
+Name = "techenium";
+Number = 43;
+Group = 7;
+Period = 5;
+Formula = "Tc";
+Charge = "7+";
+Mass = 98.91;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "44") || (Command == "ruthenium") || (Command == "Ru"))
+{
+Name = "ruthenium";
+Number = 44;
+Group = 8;
+Period = 5;
+Formula = "Ru";
+Charge = "3+ \\ 4+";
+Mass = 101.07;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "45") || (Command == "rhodium") || (Command == "Rh"))
+{
+Name = "rhodium";
+Number = 45;
+Group = 9;
+Period = 5;
+Formula = "Rh";
+Charge = "3+";
+Mass = 102.91;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
