@@ -662,3 +662,15 @@ Mass = 92.91;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "42") || (Command == "molybdenum") || (Command == "Mo"))
+{
+Name = "molybdenum";
+Number = 42;
+Group = 6;
+Period = 5;
+Formula = "Mo";
+Charge = "6+";
+Mass = 95.94;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
