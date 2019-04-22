@@ -650,3 +650,15 @@ Mass = 91.22;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "41") || (Command == "niobium") || (Command == "Nb"))
+{
+Name = "niobium";
+Number = 41;
+Group = 5;
+Period = 5;
+Formula = "Nb";
+Charge = "5+ \\ 3+";
+Mass = 92.91;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
