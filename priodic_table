@@ -758,3 +758,15 @@ Mass = 114.82;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "50") || (Command == "tin") || (Command == "Sn"))
+{
+Name = "tin";
+Number = 50;
+Group = 14;
+Period = 5;
+Formula = "Sn";
+Charge = "4+ \\ 2+";
+Mass = 118.69;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
