@@ -746,3 +746,15 @@ Mass = 112.41;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "49") || (Command == "indium") || (Command == "In"))
+{
+Name = "indium";
+Number = 49;
+Group = 13;
+Period = 5;
+Formula = "In";
+Charge = "3+";
+Mass = 114.82;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
