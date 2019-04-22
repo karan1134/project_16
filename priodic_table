@@ -1,4 +1,4 @@
-#include <iostream.h>0.
+#include <iostream>
 #include <conio.h>
 #include <rw/random.h>
 #include <string.h>
@@ -719,6 +719,30 @@ Period = 5;
 Formula = "Pd";
 Charge = "2+ \\ 4+";
 Mass = 106.42;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "47") || (Command == "silver") || (Command == "Ag"))
+{
+Name = "silver";
+Number = 47;
+Group = 11;
+Period = 5;
+Formula = "Ag";
+Charge = "1+";
+Mass = 107.87;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "48") || (Command == "cadmium") || (Command == "Cd"))
+{
+Name = "cadmium";
+Number = 48;
+Group = 12;
+Period = 5;
+Formula = "Cd";
+Charge = "2+";
+Mass = 112.41;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
