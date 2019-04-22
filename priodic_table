@@ -698,3 +698,15 @@ Mass = 101.07;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "45") || (Command == "rhodium") || (Command == "Rh"))
+{
+Name = "rhodium";
+Number = 45;
+Group = 9;
+Period = 5;
+Formula = "Rh";
+Charge = "3+";
+Mass = 102.91;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
