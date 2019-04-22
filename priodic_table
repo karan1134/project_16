@@ -616,3 +616,13 @@ Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
 else if ((Command == "38") || (Command == "stronthum") || (Command == "Sr"))
 {
+Name = "stronthum";
+Number = 38;
+Group = 2;
+Period = 5;
+Formula = "Sr";
+Charge = "2+";
+Mass = 87.62;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
