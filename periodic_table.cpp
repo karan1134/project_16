@@ -878,3 +878,15 @@ Mass = 140.91;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "60") || (Command == "neodymium") || (Command == "Nd"))
+{
+Name = "neodymium";
+Number = 60;
+Group = 7;
+Period = 6;
+Formula = "Nd";
+Charge = "3+";
+Mass = 144.24;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
