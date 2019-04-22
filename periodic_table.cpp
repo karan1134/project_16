@@ -866,3 +866,15 @@ Mass = 140.12;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "59") || (Command == "pruseodymium") || (Command == "Pr"))
+{
+Name = "pruseodymium";
+Number = 59;
+Group = 6;
+Period = 6;
+Formula = "Pr";
+Charge = "3+";
+Mass = 140.91;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
