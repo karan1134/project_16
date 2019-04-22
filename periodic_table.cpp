@@ -842,3 +842,27 @@ Mass = 137.33;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "57") || (Command == "lanthanum") || (Command == "La"))
+{
+Name = "lanthanum";
+Number = 57;
+Group = 3;
+Period = 6;
+Formula = "La";
+Charge = "3+";
+Mass = 138.91;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
+else if ((Command == "58") || (Command == "cerium") || (Command == "Ce"))
+{
+Name = "cerium";
+Number = 58;
+Group = 5;
+Period = 6;
+Formula = "Ce";
+Charge = "3+";
+Mass = 140.12;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
