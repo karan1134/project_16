@@ -794,3 +794,15 @@ Mass = 127.60;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "53") || (Command == "iodine") || (Command == "I"))
+{
+Name = "iodine";
+Number = 53;
+Group = 17;
+Period = 5;
+Formula = "I";
+Charge = "1-";
+Mass = 126.90;
+Special = "Diatomic";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
