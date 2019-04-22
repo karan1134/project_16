@@ -626,3 +626,15 @@ Mass = 87.62;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "39") || (Command == "ythrium") || (Command == "Y"))
+{
+Name = "ythrium";
+Number = 39;
+Group = 3;
+Period = 5;
+Formula = "Y";
+Charge = "3+";
+Mass = 88.91;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
