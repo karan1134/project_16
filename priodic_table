@@ -806,3 +806,15 @@ Mass = 126.90;
 Special = "Diatomic";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "54") || (Command == "xenon") || (Command == "Xe"))
+{
+Name = "xenon";
+Number = 54;
+Group = 18;
+Period = 5;
+Formula = "Xe";
+Charge = "0";
+Mass = 131.29;
+Special = "Noble Gas";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
