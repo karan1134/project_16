@@ -710,3 +710,15 @@ Mass = 102.91;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "46") || (Command == "palladium") || (Command == "Pd"))
+{
+Name = "palladium";
+Number = 46;
+Group = 10;
+Period = 5;
+Formula = "Pd";
+Charge = "2+ \\ 4+";
+Mass = 106.42;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
