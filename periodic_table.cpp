@@ -830,3 +830,15 @@ Mass = 132.91;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "56") || (Command == "barium") || (Command == "Ba"))
+{
+Name = "barium";
+Number = 56;
+Group = 2;
+Period = 6;
+Formula = "Ba";
+Charge = "2+";
+Mass = 137.33;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
