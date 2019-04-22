@@ -674,3 +674,15 @@ Mass = 95.94;
 Special = "None";
 Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
 }
+else if ((Command == "43") || (Command == "techenium") || (Command == "Tc"))
+{
+Name = "techenium";
+Number = 43;
+Group = 7;
+Period = 5;
+Formula = "Tc";
+Charge = "7+";
+Mass = 98.91;
+Special = "None";
+Table (Name, Number, Group, Period, Formula, Charge, Mass, Neutrons, Special);
+}
